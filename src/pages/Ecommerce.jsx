@@ -325,7 +325,6 @@ const Ecommerce = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )

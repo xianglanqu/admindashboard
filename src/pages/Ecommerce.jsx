@@ -7,7 +7,7 @@ import { Stacked, Pie, Button, LineChart, SparkLine } from '../components';
 import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 
-import product9 from '../data/product9.jpg';
+import product2 from '../data/product2.jpg';
 
 
 const DropDown = ({ currentMode }) => (
@@ -304,15 +304,15 @@ const Ecommerce = () => {
                     <div className="mt-10">
                         <img
                             className="md:w-96 h-50 "
-                            src={product9}
+                            src={product2}
                             alt=""
                         />
                         <div className="mt-8">
-                            <p className="font-semibold text-lg">React 18 coming soon!</p>
-                            <p className="text-gray-400 ">By Johnathan Doe</p>
+                            <p className="font-semibold text-lg">Go Outside!</p>
+                            <p className="text-gray-400 ">By Nina</p>
                             <p className="mt-8 text-sm text-gray-400">
-                                This will be the small description for the news you have shown
-                                here. There could be some great info.
+                                Studies show time and time again that regular outdoors time helps to lower stress and minimizes feelings of anxiety and depression.
+                                It can also reduce your risk of physical health conditions like high blood pressure and diabetes.
                             </p>
                             <div className="mt-3">
                                 <Button
